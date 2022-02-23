@@ -37,6 +37,8 @@ def compare(user_score, computer_score):
 
 user = []
 computer = []
+user_score = None
+computer_score = None
 is_game_over = False
 for _ in range(2):
     user.append(deal_cards())
